@@ -1,0 +1,295 @@
+div {
+    box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    position: fixed;    
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;            
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;          
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+
+  .navbar a:hover {
+    color: #f160bc;      
+  }
+
+
+.fotofondo{
+    /* background-color: rgb(229, 129, 179);*/      
+   display: flex;
+   justify-content: center;  
+   align-items: center; 
+   padding-bottom:5% ;
+
+}
+
+.fotofondo img {
+    width: 100%;      
+    height: auto;      
+    display: block; 
+    opacity: 0.50;
+    
+    
+}
+
+
+
+
+
+.fotomia{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+
+}
+
+p{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 10px 20px;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.foto{
+    background-color: rgb(252, 252, 252);
+    height: 60vh;
+
+}
+
+.textofoto{
+   /* background-color: rgb(158, 192, 255); */
+    height: 60vh;
+    padding-top: 4%;
+    padding-left: 3%;
+  } 
+
+
+.servicios{
+    height: 30vh;
+    padding: 5%;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size:90px;
+    font-weight: bold;
+}
+
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+#diseños{
+    padding: 20px;     
+    margin: 33px;            
+}
+    
+
+
+.diseñoa{
+    background-color:darkgray;
+    border-radius: 10px;  
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+      padding: 20px;
+    width: 35vh;
+    height: 35vh;
+    text-align: center;
+    align-content: center;
+}
+.diseñob{
+    background-color: rgba(169, 169, 169, 0.676);
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    width: 35vh;
+    height: 35vh;
+    text-align: center;
+    align-content: center;
+}
+.diseñoc{
+    background-color: rgba(169, 169, 169, 0.386);
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    width: 35vh;
+    height: 35vh;
+    text-align: center;
+    align-content: center;
+}
+.diseñod{
+    background-color: rgba(169, 169, 169, 0.089);
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 35vh;
+    height: 35vh;
+    text-align: center;
+    align-content: center;
+}
+
+.resumen{
+    height: 30vh;
+    padding: 5%;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.trabajoa{
+    height: 30vh;
+}
+
+#marca{
+    max-width: 100%;
+    height: 100%; 
+    padding: 15px 15px;   
+}
+
+.trabajob{
+    height: 30vh;
+}
+
+.trabajoc{
+    height: 30vh;
+}
+
+.trabajod{
+    height: 30vh;
+}
+
+.trabajoe{
+    height: 30vh;
+}
+
+.trabajof{
+    height: 30vh;
+}
+
+.trabajog{
+    height: 30vh;
+}
+
+.trabajoh{
+    height: 30vh;
+}
+
+
+/* Estilos básicos para el pie de página */
+.footer {
+    background-color: #000000; 
+    color: #fff; /
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    margin-bottom: 15px;
+  }
+  
+  .footer-content p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #d978e6; 
+  }
+  
+
+
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  
+    .header {
+      text-align: center;
+    }
+  }
